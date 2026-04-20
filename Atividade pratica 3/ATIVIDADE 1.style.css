@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.principal {
+    display: flex;
+    height: 100%;
+}
+.menu {
+width: 180px;
+background-color: lightgray;
+}
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: black;
+}
+.topo {
+ background-color: lightcoral;
+ padding: 10px;
+}
+
+.linha {
+ display: flex;
+ padding: 10px;
+  gap: 10px;
+}
+.caixa {
+ flex: 1;
+  background-color: green;
+ height: 60px;
+}
